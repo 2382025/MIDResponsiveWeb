@@ -172,6 +172,12 @@ ul {
     content: "";
     width: 350px;
   }
+
+ 
+@media (max-width: 768px) {
+    .gallery img {
+      width: calc(100% - 12px); 
+    }
   
 
 
